@@ -26,3 +26,26 @@ li {
 #menubutton {
   text-align: right;
 }
+#footer{
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color:cornsilk;
+}
+#avatar{
+  height: 40px;
+  width: 40px;
+}
+#created-by{
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+#contact-form{
+  padding-left: 15px;
+  text-align: left;
+}
+#created-date{
+  text-align: right;
+  padding-right: 15px;
+  font-family: 'Mate SC', serif;
+}
