@@ -25,7 +25,11 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
     <script src="script/script.js"></script>
     <title>Petra's creation</title>
   </head>
@@ -48,12 +52,50 @@
           <nav class="nav navbar navbar-default" id="myTopnav">
             <a class="btn btn-sm" href="#">Home</a>
             <a class="btn btn-sm" href="#">Projects</a>
-            <a class="btn btn-sm" href="#">About me</a>
+            <a class="btn btn-sm" href="#aboutme-title">About me</a>
           </nav>
         </div>
       </div>
     </div>
-    <div id="content"></div>
+    <div id="content">
+      <div id="home"></div>
+      <!--TODO: Create projects section -->
+      <div id="projects" class="container-fluid">
+        
+      </div>
+      <!--TODO: Create about me infos section -->
+      <div id="aboutme" class="container-fluid">
+        <div id="aboutme-title" class="row">
+          <h4>About Me</h4>
+        </div>
+        <div class="row">
+          <div id="github" class="col">
+            <a
+              class="btn btn-sm btn-dark"
+              href="https://github.com/petra-rabai"
+              target="_blank"
+              ><i class="fa fa-github" aria-hidden="true"></i> Github</a
+            >
+          </div>
+          <div id="linkedin" class="col">
+            <a
+              class="btn btn-sm btn-primary"
+              href="https://www.linkedin.com/in/petra-r%C3%A1bai-9a7288120/"
+              target="_blank"
+              ><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a
+            >
+          </div>
+          <div id="freecodecamp" class="col">
+            <a
+              class="btn btn-sm btn-success"
+              href="https://www.freecodecamp.org/petrarabai"
+              target="_blank"
+              ><i class="fa fa-free-code-camp"></i> Free Code Camp</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="footer" class="container-fluid">
       <div class="row">
         <div id="contact-form" class="col">
