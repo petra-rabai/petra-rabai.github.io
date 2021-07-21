@@ -49,10 +49,10 @@
           <h2>Web development portfolio</h2>
         </div>
         <div id="menu-section">
-          <nav class="nav navbar navbar-default" id="myTopnav">
-            <a class="btn btn-sm" href="#">Home</a>
-            <a class="btn btn-sm" href="#">Projects</a>
-            <a class="btn btn-sm" href="#aboutme-title">About me</a>
+          <nav class="nav navbar" id="myTopnav">
+            <a id="homemenu" class="btn btn-sm btn-outline-warning" href="#">Home</a>
+            <a id="projectmenu" class="btn btn-sm btn-outline-success" href="#">Projects</a>
+            <a id="aboutmenu" class="btn btn-sm btn-outline-danger" href="#aboutme-title">About me</a>
           </nav>
         </div>
       </div>
@@ -61,7 +61,27 @@
       <div id="home"></div>
       <!--TODO: Create projects section -->
       <div id="projects" class="container-fluid">
-        
+        <div class="row">
+          <div class="col">
+            <div id="tribute-page">
+              <img id="tributeimg" src="img/tributepage.png" alt="">
+              <div class="row">
+                <div class="col">
+                  <a id="tributecodepen" class="btn btn-sm btn-dark" href="https://codepen.io/petra-rabai/full/WgdRYe" target="_blank"><i class="fa fa-codepen"></i> Codepen</a>
+                </div>
+                <div class="col">
+                  <a id="tributegithub" class="btn btn-sm btn-dark" href="https://github.com/petra-rabai/tributepage" target="_blank"><i class="fa fa-github"></i> Github</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
       </div>
       <!--TODO: Create about me infos section -->
       <div id="aboutme" class="container-fluid">

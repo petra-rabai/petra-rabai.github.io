@@ -4,6 +4,22 @@
     width: 70px;
     padding-top: 10px;
   }
+  #tributeimg{
+    height: 100px;
+    width: 100px;
+  }
+
+  #homemenu{
+    font-size: 10px;
+  }
+
+  #projectmenu{
+    font-size: 10px;
+  }
+
+  #aboutmenu{
+    font-size: 10px;
+  }
 
   .btn-primary {
     font-size: 13px;
