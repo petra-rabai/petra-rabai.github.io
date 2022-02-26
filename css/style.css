@@ -1,80 +1,4 @@
 @media only screen and (max-width: 600px) {
-  #img-logo {
-    height: 70px;
-    width: 70px;
-    padding-top: 10px;
-  }
-  #tributeimg{
-    height: 100px;
-    width: 100px;
-  }
-
-  #homemenu{
-    font-size: 10px;
-  }
-
-  #projectmenu{
-    font-size: 10px;
-  }
-
-  #aboutmenu{
-    font-size: 10px;
-  }
-
-  .btn-primary {
-    font-size: 13px;
-    padding: 8px;
-  }
-
-  .btn-success {
-    font-size: 10px;
-  }
-
-  .btn-dark {
-    padding: 8px;
-  }
-
-  h1 {
-    font-size: 14px;
-  }
-
-  h2 {
-    font-size: 14px;
-  }
-
-  h5 {
-    font-size: 10px;
-  }
-
-  #header-title {
-    padding-top: 10px;
-    text-align: center;
-  }
-
-  #avatar {
-    height: 20px;
-    width: 20px;
-  }
-
-  #contact-button {
-    font-size: 10px;
-    text-align: left;
-    padding-top: 10px;
-  }
-
-  #created-by {
-    padding-top: 10px;
-    text-align: center;
-  }
-
-  #created-date {
-    text-align: right;
-    padding-top: 10px;
-  }
-
-  #footer {
-    padding-top: 5px;
-  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -88,39 +12,91 @@
 
 @media only screen and (min-width: 1200px) {
   body {
-    background-color: bisque;
+    background-color: rgb(210, 225, 228);
+    font-family: 'Source Code Pro', monospace;
   }
   
   #header {
-    background-color: rgb(173, 243, 255);
     border: 5px solid black;
-  }
-  .header-section{
-    margin: 10px;
+    padding: 10px;
   }
 
-  #menu-section {
-    border: 3px solid silver;
-    border-radius: 20px;
+  .header-section{
+    margin: 10px;
+    text-align: center;
   }
   
   #img-logo {
-    height: 120px;
-    width: 120px;
+    height: 130px;
+    width: 130px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 3px solid black;
+    box-shadow: 10px 5px 5px red;
+  }
+
+  #menu-section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+  }
+
+  #myTopnav{
     padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #homemenu{
+    margin-left: 5px;
+  }
+
+  #aboutmenu{
+    margin-right: 5px;
   }
 
   #projects{
     margin-top: 10px;
   }
-  .project-title{
-    margin-top: 5px;
+  #webdevheader{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 
-  #header-title {
+  #wbdevdescription{
+    margin-bottom: 30px;
+  }
+  .project-title{
+    margin-top: 5px;
     text-align: center;
+  }
+
+  .project-image{
+    padding-left: 45px;
+  }
+
+  .project-description{
     padding-top: 10px;
-    padding-right: 350px;
+    text-align: center;
+  }
+
+  .project-button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  } 
+
+  #tribute-page{
+    border: 5px solid black;
+    padding-left: 10px;
+  }
+
+  #tributecodepenbutton{
+    margin-left: 48px;
+  }
+
+  #tributegithubbutton{
+    margin-left: 115px;
   }
 
   #avatar {
@@ -140,8 +116,5 @@
     padding-top: 10px;
   }
   
-  #tribute-page{
-    border: 5px solid rgb(127, 154, 165);
-    padding-left: 10px;
-  }
+  
 }
