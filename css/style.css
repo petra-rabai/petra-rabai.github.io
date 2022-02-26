@@ -87,10 +87,34 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  body {
+    background-color: bisque;
+  }
+  
+  #header {
+    background-color: rgb(173, 243, 255);
+    border: 5px solid black;
+  }
+  .header-section{
+    margin: 10px;
+  }
+
+  #menu-section {
+    border: 3px solid silver;
+    border-radius: 20px;
+  }
+  
   #img-logo {
     height: 120px;
     width: 120px;
     padding-top: 10px;
+  }
+
+  #projects{
+    margin-top: 10px;
+  }
+  .project-title{
+    margin-top: 5px;
   }
 
   #header-title {
@@ -115,83 +139,9 @@
   #footer {
     padding-top: 10px;
   }
+  
+  #tribute-page{
+    border: 5px solid rgb(127, 154, 165);
+    padding-left: 10px;
+  }
 }
-
-body {
-  background-color: bisque;
-}
-
-#header {
-  background-color: aqua;
-}
-
-#footer {
-  background-color: ghostwhite;
-}
-
-#menu-section {
-  border: 3px solid silver;
-  border-radius: 20px;
-  margin-top: 10px;
-}
-
-#aboutme {
-  margin-top: 10px;
-}
-
-#linkedin {
-  text-align: center;
-}
-
-#freecodecamp {
-  text-align: right;
-}
-
-#github {
-  text-align: left;
-}
-
-/* #header-title {
-  text-align: center;
-}
-#header {
-  padding: 10px;
-}
-#main-menu {
-  padding-left: 90px;
-  padding-bottom: 5px;
-}
-#header {
-  margin-top: 10px;
-  background-color: aquamarine;
-}
-li {
-  margin-top: 5px;
-  padding-top: 5px;
-}
-#menu-section {
-  text-align: right;
-}
-#menubutton {
-  text-align: right;
-}
-#footer{
-  margin-top: 10px;
-  padding-top: 10px;
-  background-color:cornsilk;
-}
-
-#created-by{
-  text-align: center;
-  margin: 5px;
-  padding: 5px;
-}
-#contact-form{
-  padding-left: 15px;
-  text-align: left;
-}
-#created-date{
-  text-align: right;
-  padding-right: 15px;
-  font-family: 'Mate SC', serif;
-} */
