@@ -5,6 +5,7 @@
 }
 
 @media only screen and (min-width: 768px) {
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -86,17 +87,20 @@
     margin-bottom: 15px;
   } 
 
-  #tribute-page{
-    border: 5px solid black;
-    padding-left: 10px;
-  }
-
   #tributecodepenbutton{
     margin-left: 48px;
   }
 
   #tributegithubbutton{
     margin-left: 115px;
+  }
+
+  .project-card{
+    border: 5px solid black;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
   }
 
   #avatar {

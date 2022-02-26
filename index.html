@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <!--NOTE: Google Fonts export link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <!--NOTE: Bootstrap CSS export link-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -42,12 +45,14 @@
       <div class="row">
         <div id="logo" class="col header-section">
           <h1>
-          <img
-            id="img-logo"
-            class="img-responsive"
-            src="img/logo.png"
-            alt="logo"
-          />   Developer portfolio</h1>
+            <img
+              id="img-logo"
+              class="img-responsive"
+              src="img/logo.png"
+              alt="logo"
+            />
+            Developer portfolio
+          </h1>
         </div>
       </div>
     </div>
@@ -59,10 +64,7 @@
         <a id="projectmenu" class="btn btn-danger" href="projects"
           ><i class="fa-solid fa-diagram-project"></i> Projects</a
         >
-        <a
-          id="aboutmenu"
-          class="btn btn-danger"
-          href="#aboutme-title"
+        <a id="aboutmenu" class="btn btn-danger" href="#aboutme-title"
           ><i class="fa-solid fa-user"></i> About me</a
         >
       </nav>
@@ -75,122 +77,244 @@
           <h3>Web development projects</h3>
         </div>
         <div id="wbdevdescription">
-          <h5>These projects were created during the Free Code Camp learning path.</h5>
+          <h5>
+            These projects were created during the Free Code Camp learning path.
+          </h5>
         </div>
-        <div class="row">
-          <div class="col">
-            <div id="tribute-page">
-              <h4 class="project-title">Tribute Website</h4>
-              <img
-                id="tributeimg"
-                class="project-image img-responsive"
-                src="img/tributepage.png"
-                alt=""
-              />
-              <div class="row">
-                <div class="col">
-                  <a
-                    id="tributecodepenbutton"
-                    class="btn btn-sm btn-dark project-button"
-                    href="https://codepen.io/petra-rabai/full/WgdRYe"
-                    target="_blank"
-                    ><i class="fa fa-codepen"></i> Codepen</a
-                  >
+        <div id="projectgrid">
+          <div id="grid-first-row" class="row">
+            <div class="col">
+              <div id="tribute-page" class="project-card">
+                <h4 class="project-title">Tribute Website</h4>
+                <img
+                  id="tributeimg"
+                  class="project-image img-responsive"
+                  src="img/tributepage.png"
+                  alt=""
+                />
+                <div class="row">
+                  <div class="col">
+                    <a
+                      id="tributecodepenbutton"
+                      class="btn btn-sm btn-dark project-button"
+                      href="https://codepen.io/petra-rabai/full/WgdRYe"
+                      target="_blank"
+                      ><i class="fa fa-codepen"></i> Codepen</a
+                    >
+                  </div>
+                  <div class="col">
+                    <a
+                      id="tributegithubbutton"
+                      class="btn btn-sm btn-dark project-button"
+                      href="https://github.com/petra-rabai/tributepage"
+                      target="_blank"
+                      ><i class="fa fa-github"></i> Github</a
+                    >
+                  </div>
                 </div>
-                <div class="col">
-                  <a
-                    id="tributegithubbutton"
-                    class="btn btn-sm btn-dark project-button"
-                    href="https://github.com/petra-rabai/tributepage"
-                    target="_blank"
-                    ><i class="fa fa-github"></i> Github</a
-                  >
-                </div>
-              </div>
-              <div id="tribute-description" class="project-description">
-                <p>First tribute page project - Free Code camp responsive web design path</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div id="RPSLS">
-              <h4>Rock,Paper,Scissor,Lizard,Spock Console Game</h4>
-              <img
-                id="rpslsimg"
-                class="img-responsive"
-                src="img/rpslsgame.png"
-                alt=""
-              />
-              <div class="row">
-                <div class="col">
-                  <a
-                    id="rpslsgithub"
-                    class="btn btn-sm btn-dark"
-                    href=""
-                    target="_blank"
-                    ><i class="fa fa-github"></i> Github</a
-                  >
+                <div id="tribute-description" class="project-description">
+                  <p>
+                    First tribute page project - Free Code camp responsive web
+                    design path
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div id="blackjack">
-              <h4>Black Jack Console Game</h4>
-              <i class="fa fa-spinner" aria-hidden="true"></i>
-              <div class="row">
-                <div class="col">
-                  <a
-                    id="blackjackgithub"
-                    class="btn btn-sm btn-dark"
-                    href=""
-                    target="_blank"
-                    ><i class="fa fa-github"></i> Github</a
-                  >
+            <div class="col">
+              <div id="surveyform-page" class="project-card">
+                <h4 class="project-title">Survey Form Website</h4>
+                <img
+                  id="surveyformimg"
+                  class="project-image img-responsive"
+                  src="img/surveyform.png"
+                  alt=""
+                />
+                <div class="row">
+                  <div class="col">
+                    <a
+                      id="surveyformcodepenbutton"
+                      class="btn btn-sm btn-dark project-button"
+                      href="https://codepen.io/petra-rabai/full/JaVXVz"
+                      target="_blank"
+                      ><i class="fa fa-codepen"></i> Codepen</a
+                    >
+                  </div>
+                  <div class="col">
+                    <a
+                      id="surveyformgithubbutton"
+                      class="btn btn-sm btn-dark project-button"
+                      href="https://github.com/petra-rabai/surveyform"
+                      target="_blank"
+                      ><i class="fa fa-github"></i> Github</a
+                    >
+                  </div>
                 </div>
+                <div id="survey-description" class="project-description">
+                  <p>
+                    Survey form page project - Free Code camp responsive web
+                    design path
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="grid-second-row" class="row">
+              <div class="col">
+                <div id="productlanding-page" class="project-card">
+                  <h4 class="project-title">Product Landing Website</h4>
+                  <img
+                    id="productlandingimg"
+                    class="project-image img-responsive"
+                    src="img/productlanding.png"
+                    alt=""
+                  />
+                  <div class="row">
+                    <div class="col">
+                      <a
+                        id="productlandingcodepenbutton"
+                        class="btn btn-sm btn-dark project-button"
+                        href="https://codepen.io/petra-rabai/full/qJErbK"
+                        target="_blank"
+                        ><i class="fa fa-codepen"></i> Codepen</a
+                      >
+                    </div>
+                    <div class="col">
+                      <a
+                        id="productlandinggithubbutton"
+                        class="btn btn-sm btn-dark project-button"
+                        href="https://github.com/petra-rabai/productlandingpage"
+                        target="_blank"
+                        ><i class="fa fa-github"></i> Github</a
+                      >
+                    </div>
+                  </div>
+                  <div id="productland-description" class="project-description">
+                    <p>
+                      Product landing page project - Free Code camp responsive
+                      web design path
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div id="techdoc-page" class="project-card">
+                  <h4 class="project-title">Technical Document Website</h4>
+                  <img
+                    id="techdocgimg"
+                    class="project-image img-responsive"
+                    src="img/techdoc.png"
+                    alt=""
+                  />
+                  <div class="row">
+                    <div class="col">
+                      <a
+                        id="techdoccodepenbutton"
+                        class="btn btn-sm btn-dark project-button"
+                        href="https://codepen.io/petra-rabai/full/jRNRZB"
+                        target="_blank"
+                        ><i class="fa fa-codepen"></i> Codepen</a
+                      >
+                    </div>
+                    <div class="col">
+                      <a
+                        id="techdocgithubbutton"
+                        class="btn btn-sm btn-dark project-button"
+                        href="https://github.com/petra-rabai/techdocpage"
+                        target="_blank"
+                        ><i class="fa fa-github"></i> Github</a
+                      >
+                    </div>
+                  </div>
+                  <div id="techdoc-description" class="project-description">
+                    <p>
+                      Technical document page project - Free Code camp responsive
+                      web design path
+                    </p>
+                  </div>
+                </div>                
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
+
+        <div class="col">
+          <div id="RPSLS">
+            <h4>Rock,Paper,Scissor,Lizard,Spock Console Game</h4>
+            <img
+              id="rpslsimg"
+              class="img-responsive"
+              src="img/rpslsgame.png"
+              alt=""
+            />
+            <div class="row">
+              <div class="col">
+                <a
+                  id="rpslsgithub"
+                  class="btn btn-sm btn-dark"
+                  href=""
+                  target="_blank"
+                  ><i class="fa fa-github"></i> Github</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div id="blackjack">
+            <h4>Black Jack Console Game</h4>
+            <i class="fa fa-spinner" aria-hidden="true"></i>
+            <div class="row">
+              <div class="col">
+                <a
+                  id="blackjackgithub"
+                  class="btn btn-sm btn-dark"
+                  href=""
+                  target="_blank"
+                  ><i class="fa fa-github"></i> Github</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <!--TODO: Create about me infos section -->
-      <div id="aboutme" class="container-fluid">
-        <div id="aboutme-title" class="row">
-          <h4>About Me</h4>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <!--TODO: Create about me infos section -->
+    <div id="aboutme" class="container-fluid">
+      <div id="aboutme-title" class="row">
+        <h4>About Me</h4>
+      </div>
+      <div class="row">
+        <div id="github" class="col">
+          <a
+            class="btn btn-sm btn-dark"
+            href="https://github.com/petra-rabai"
+            target="_blank"
+            ><i class="fa fa-github" aria-hidden="true"></i> Github</a
+          >
         </div>
-        <div class="row">
-          <div id="github" class="col">
-            <a
-              class="btn btn-sm btn-dark"
-              href="https://github.com/petra-rabai"
-              target="_blank"
-              ><i class="fa fa-github" aria-hidden="true"></i> Github</a
-            >
-          </div>
-          <div id="linkedin" class="col">
-            <a
-              class="btn btn-sm btn-primary"
-              href="https://www.linkedin.com/in/petra-r%C3%A1bai-9a7288120/"
-              target="_blank"
-              ><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a
-            >
-          </div>
-          <div id="freecodecamp" class="col">
-            <a
-              class="btn btn-sm btn-success"
-              href="https://www.freecodecamp.org/petrarabai"
-              target="_blank"
-              ><i class="fa fa-free-code-camp"></i> Free Code Camp</a
-            >
-          </div>
+        <div id="linkedin" class="col">
+          <a
+            class="btn btn-sm btn-primary"
+            href="https://www.linkedin.com/in/petra-r%C3%A1bai-9a7288120/"
+            target="_blank"
+            ><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a
+          >
+        </div>
+        <div id="freecodecamp" class="col">
+          <a
+            class="btn btn-sm btn-success"
+            href="https://www.freecodecamp.org/petrarabai"
+            target="_blank"
+            ><i class="fa fa-free-code-camp"></i> Free Code Camp</a
+          >
         </div>
       </div>
     </div>
+
     <div id="footer" class="container-fluid">
       <div class="row">
         <div id="contact-form" class="col">
