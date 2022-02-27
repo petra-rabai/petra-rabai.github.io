@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petra Rábai - Front-end and C# Developer</title>
+  <!-- Link our CSS stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <!-- Header content with avatar and basic info -->
+    </header>
+    <section>
+      <h2>My Coding Activity & Stats</h2>
+
+      <!-- Summary widget -->
+      <script src="https://unpkg.com/@codersrank/summary/codersrank-summary.min.js"></script>
+      <codersrank-summary username="petra-rabai" show-header="false"></codersrank-summary>
+      
+      <!-- Activity widget -->
+      <script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
+      <codersrank-activity username="petra-rabai" legend="false" labels tooltip step="5" ></codersrank-activity>
+      <!-- Skills chart widget -->
+      <script src="https://unpkg.com/@codersrank/skills-chart/codersrank-skills-chart.min.js"></script>
+      <codersrank-skills-chart
+        username="petra-rabai"
+        labels
+        tooltip
+        skills="JavaScript,CSS,Less,Vue,Svelte,TypeScript,CSS,HTML,C#"
+        svg-width="1120"
+        svg-height="400"
+        ></codersrank-skills-chart>
+    </section>
+    <section>
+      <h2>Recent Projects</h2>
+
+      <!-- Portfolio widget -->
+      <script src="https://unpkg.com/@codersrank/portfolio/codersrank-portfolio.min.js"></script>
+      <codersrank-portfolio
+        username="petra-rabai"
+        grid
+        company="false"
+      ></codersrank-portfolio>
+    </section>
+  </main>
+  
+</body>
+</html>
