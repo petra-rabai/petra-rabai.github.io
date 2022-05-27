@@ -51,49 +51,67 @@
               src="img/logo.png"
               alt="logo"
             />
-            Developer portfolio
+             Portfolio
           </h1>
         </div>
       </div>
     </div>
     <section>
-      <h2>My Coding Activity & Stats</h2>
-
-      <!-- Summary widget -->
+      <div id="coding-activity-title">
+        <h2>My Coding Activity & Stats</h2>
+      </div>
+       <!-- Summary widget -->
+     <div id="summary-widget">
+       <h4>
+         CodersRank Summary
+       </h4>
       <script src="https://unpkg.com/@codersrank/summary/codersrank-summary.min.js"></script>
-      <codersrank-summary username="petra-rabai" show-header="false"></codersrank-summary>
-      
+      <codersrank-summary username="petra-rabai" show-header="true"></codersrank-summary>
+     </div>
       <!-- Activity widget -->
-      <script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
-      <codersrank-activity username="petra-rabai" legend="false" labels tooltip step="5" ></codersrank-activity>
-      <!-- Skills chart widget -->
+      <div id="activity-widget">
+        <h4>
+          CodersRank Activity statistics
+        </h4>
+        <script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
+      <codersrank-activity username="petra-rabai" legend="true" labels tooltip step="5" ></codersrank-activity>
+      </div>
+               <!-- Skills chart widget -->
+      <div id="skillchart-widget">
+        <h4>
+          CodersRank Skill chart
+        </h4>
       <script src="https://unpkg.com/@codersrank/skills-chart/codersrank-skills-chart.min.js"></script>
       <codersrank-skills-chart
         username="petra-rabai"
         labels
+        legend="true"
         tooltip
-        skills="JavaScript,CSS,Less,Vue,Svelte,TypeScript,CSS,HTML,C#"
+        sort-by-score="true"
+        skills="JavaScript,CSS,Sql,TSQL,CSS,HTML,C#,JSON"
         svg-width="1120"
         svg-height="400"
         ></codersrank-skills-chart>
+      </div>
     </section>
+    <!-- Portfolio widget -->
     <section>
-      <h2>Recent Projects</h2>
-
-      <!-- Portfolio widget -->
-      <script src="https://unpkg.com/@codersrank/portfolio/codersrank-portfolio.min.js"></script>
-      <codersrank-portfolio
-        username="petra-rabai"
-        grid
-        company="false"
-      ></codersrank-portfolio>
+      <div id="protfolio-widget">
+        <h2>Recent Projects</h2>
+        <script src="https://unpkg.com/@codersrank/portfolio/codersrank-portfolio.min.js"></script>
+        <codersrank-portfolio
+          username="petra-rabai"
+          grid
+          company="false"
+        ></codersrank-portfolio>
+      </div>     
     </section>
     <!--TODO: Create about me infos section -->
     <div id="aboutme" class="container-fluid">
       <div id="aboutme-title" class="row">
         <h4>About Me</h4>
       </div>
-      <div class="row">
+      <div id="button-group" class="row">
         <div id="github" class="col">
           <a
             class="btn btn-sm btn-dark"
@@ -121,82 +139,5 @@
       </div>
     </div>
 
-    <div id="footer" class="container-fluid">
-      <div class="row">
-        <div id="contact-form" class="col">
-          <!--TODO: Create contact form with e-mail sending function-->
-          <button
-            id="contact-button"
-            class="btn btn-sm"
-            type="button"
-            data-bs-toggle="modal"
-            data-bs-target="#Emailmodal"
-          >
-            <i class="fas fa-envelope"> Contact me</i>
-          </button>
-          <div id="Emailmodal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4>Send me a message</h4>
-                </div>
-                <div class="modal-body">
-                  <form>
-                    <div class="mb-2">
-                      <label for="inputemail">E-mail address: </label>
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="inputemail"
-                      />
-                    </div>
-                    <div class="mb-2">
-                      <div class="form-group">
-                        <label for="message">Message: </label>
-                        <textarea
-                          class="form-control"
-                          id="message"
-                          rows="3"
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div class="mb-2">
-                      <button type="submit" class="btn btn-primary">
-                        Send
-                      </button>
-                    </div>
-                  </form>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-default"
-                    data-bs-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="created-by" class="col">
-          <!--TODO: Create sign of created by with "cool" design-->
-          <h5>
-            <img
-              id="avatar"
-              class="img-responsive"
-              src="img/avatar.PNG"
-              alt=""
-            />
-            Petra Rábai
-          </h5>
-        </div>
-        <div id="created-date" class="col">
-          <!--TODO: Create sign of created date of the site-->
-          <h5>2021</h5>
-        </div>
-      </div>
-    </div>
   </body>
 </html>
